@@ -2,7 +2,17 @@
 
 > Self-contained MCP server packages that run with a single command.
 
-[MCPB](https://github.com/modelcontextprotocol/mcpb) (MCP Bundle) is the packaging format for distributing [Model Context Protocol](https://modelcontextprotocol.io) servers as ready-to-run bundles. No cloning repos, no installing runtimes, no debugging dependencies.
+MCPB (MCP Bundle) is the packaging format for distributing [Model Context Protocol](https://modelcontextprotocol.io) servers as ready-to-run bundles. No cloning repos, no installing runtimes, no debugging dependencies.
+
+Bundles are distributed as `.mcpb` files. Install from a registry or download from GitHub Releases:
+
+```bash
+# From mpak registry
+mpak run @scope/name
+
+# From a local .mcpb file
+mpak run ./server.mcpb
+```
 
 ## Contents
 
@@ -41,7 +51,7 @@
 ## Productivity
 
 - [Anki](https://github.com/tbroadley/ankiconnect-mcpb) - Flashcard operations via AnkiConnect.
-- [Bear](https://github.com/jkawamoto/mcp-bear) - Bear notes app integration for macOS.
+- [Bear](https://github.com/jkawamoto/mcp-bear) - Notes app integration for macOS.
 - [Productboard](https://github.com/benmillerat/productboard-mcpb) - Product management and roadmap workflows.
 - [Things](https://github.com/mbmccormick/things-mcpb) - Task management via Things app for macOS.
 - [YNAB](https://github.com/dizzlkheinz/ynab-mcpb) - Budget management with You Need A Budget.
@@ -61,9 +71,9 @@
 
 - [Blockscout](https://github.com/blockscout/mcp-server) - Blockchain data exploration and analytics.
 - [Kintone](https://github.com/kintone/mcp-server) - Business application platform for custom workflows.
-- [macOS](https://github.com/macuse-app/macuse-mcp) - macOS native functionality bridge.
+- [macOS](https://github.com/macuse-app/macuse-mcp) - Native system functionality bridge for Apple desktops.
 - [SigNoz](https://github.com/SigNoz/signoz-mcp-server) - Observability, monitoring, and distributed tracing.
-- [WordPress](https://github.com/Automattic/wpcom-mcp-bundle) - WordPress.com site and content management.
+- [WordPress](https://github.com/Automattic/wpcom-mcp-bundle) - Site and content management for WP.com.
 
 ## Utilities
 
