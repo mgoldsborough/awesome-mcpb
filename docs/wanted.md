@@ -45,6 +45,18 @@ High-star repos from the community:
 | [sqlite-mcp](https://github.com/nicholasgriffintn/sqlite-mcp) | 300+ | SQLite database. | Easy |
 | [redis-mcp](https://github.com/redis/mcp-redis) | 200+ | Redis key-value store. | Easy |
 | [kubernetes-mcp](https://github.com/strowk/mcp-k8s-go) | 200+ | Kubernetes cluster operations. | Hard |
+| [playwright](https://github.com/microsoft/playwright-mcp) | 5k+ | Browser automation via accessibility snapshots. | Medium |
+| [figma-context](https://github.com/GLips/Figma-Context-MCP) | 2k+ | Direct Figma file data for design-to-code. | Medium |
+| [cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) | 1k+ | Cloudflare Workers, KV, R2, and D1. | Medium |
+| [stripe](https://github.com/stripe/agent-toolkit) | 500+ | Payment processing and billing. | Medium |
+| [firecrawl](https://github.com/mendableai/firecrawl-mcp-server) | 500+ | Web scraping with JavaScript rendering. | Medium |
+| [gitlab](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) | - | GitLab project management. | Easy |
+| [firebase](https://github.com/gannonh/firebase-mcp) | 300+ | Auth, Firestore, and Cloud Storage. | Medium |
+| [mongodb](https://github.com/furey/mongodb-lens) | 200+ | Full-featured MongoDB operations. | Medium |
+| [bigquery](https://github.com/ergut/mcp-bigquery-server) | 200+ | Google BigQuery analytics. | Medium |
+| [atlassian](https://github.com/sooperset/mcp-atlassian) | 500+ | Jira and Confluence integration. | Medium |
+| [google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp) | 300+ | Calendar, Drive, Gmail, Docs, and Sheets. | Hard |
+| [elevenlabs](https://github.com/mamertofabian/elevenlabs-mcp-server) | 100+ | Text-to-speech generation. | Easy |
 
 ## Difficulty Guide
 

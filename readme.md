@@ -2,7 +2,7 @@
 
 > Self-contained MCP server packages that run with a single command.
 
-MCPB (MCP Bundle) is the packaging format for distributing [Model Context Protocol](https://modelcontextprotocol.io) servers as ready-to-run bundles. No cloning repos, no installing runtimes, no debugging dependencies.
+[MCPB](https://github.com/modelcontextprotocol/mcpb) (MCP Bundle), also known as Claude Desktop Extensions (DXT), is the packaging format for distributing [Model Context Protocol](https://modelcontextprotocol.io) servers as ready-to-run bundles. No cloning repos, no installing runtimes, no debugging dependencies.
 
 Bundles are distributed as `.mcpb` files. Install from a registry or download from GitHub Releases:
 
@@ -89,7 +89,7 @@ mpak run ./server.mcpb
 
 ## Build Tools
 
-- [mcpb](https://github.com/modelcontextprotocol/mcpb) - Official CLI for packing and validating MCPB bundles.
+- [mcpb](https://www.npmjs.com/package/@anthropic-ai/mcpb) - Official CLI for packing and validating MCPB bundles.
 - [mcpb-pack](https://github.com/NimbleBrainInc/mcpb-pack) - GitHub Action for building MCPB bundles in CI/CD pipelines.
 - [mpak](https://github.com/NimbleBrainInc/mpak) - Registry and CLI for discovering and running MCPB bundles.
 
