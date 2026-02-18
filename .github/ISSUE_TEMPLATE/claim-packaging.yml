@@ -1,0 +1,47 @@
+name: Claim a Server to Package
+description: Claim an MCP server to package as MCPB. Prevents duplicate work.
+title: "Claim: "
+labels: ["claim"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Server Name
+      placeholder: e.g. filesystem
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+  - type: checkboxes
+    id: wanted
+    attributes:
+      label: Source
+      options:
+        - label: This server is on the [wanted list](docs/wanted.md).
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Estimated Difficulty
+      options:
+        - Easy
+        - Medium
+        - Hard
+    validations:
+      required: true
+  - type: input
+    id: timeline
+    attributes:
+      label: Expected Timeline
+      placeholder: e.g. 1 week
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes or Questions
+      placeholder: Anything the maintainers should know.

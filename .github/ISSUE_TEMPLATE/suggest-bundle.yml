@@ -1,0 +1,53 @@
+name: Suggest a Bundle
+description: Suggest an MCP server that should be packaged as MCPB.
+title: "Suggest: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Server Name
+      placeholder: e.g. filesystem
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Why is this server valuable?
+      placeholder: Describe the use case and why it should be bundled.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Server Language
+      options:
+        - Node.js
+        - Python
+        - Go
+        - Rust
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Estimated Packaging Difficulty
+      options:
+        - Easy
+        - Medium
+        - Hard
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      placeholder: Dependencies, gotchas, or anything else relevant.

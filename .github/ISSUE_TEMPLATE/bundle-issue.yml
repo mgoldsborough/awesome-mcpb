@@ -1,0 +1,56 @@
+name: Bundle Issue
+description: Report a problem with a listed bundle.
+title: "Issue: "
+labels: ["bug"]
+body:
+  - type: input
+    id: bundle
+    attributes:
+      label: Bundle Name
+      placeholder: e.g. GitHub
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. 0.26.3
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      placeholder: Describe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: Describe what should have happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Run `mpak run ...`
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error Output
+      render: shell
+      placeholder: Paste any error messages here.
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      placeholder: e.g. macOS 15.2, Ubuntu 24.04
+  - type: input
+    id: mpak_version
+    attributes:
+      label: mpak Version
+      placeholder: Output of mpak --version
